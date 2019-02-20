@@ -1,2 +1,1 @@
-# xqtimepicker
-xqTimePicker
+# xqTimePicker

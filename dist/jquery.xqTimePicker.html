@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>xqTimePicker</title>
+    <link rel="stylesheet" href="jquery.xqTimePicker.css"/>
+    <link rel="stylesheet" href="time.css" />
+    <style>
+        .container {
+            width: 700px;
+            margin: 20px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="timeBox" id="time1">
+        <input type="text" class="timeBox" id="time2">
+        <input type="text" class="timeBox" id="time3">
+    </div>
+    <script src="./libs/jquery-1.11.3.js"></script>
+    <script src="jquery.xqTimePicker.js"></script>
+    <script>
+        $(function () {
+            $(".timeBox").timePicker({});
+        });
+
+    </script>
+</body>
+</html>
