@@ -1,15 +1,11 @@
 {
-  "name": "calendar",
+  "name": "xqtimepicker",
   "version": "1.0.0",
-  "description": "日历插件 for 汕头智能交通",
+  "description": "时间选择器",
   "scripts": {
     "dev": "gulp",
     "build": "gulp release"
   },
-  "keywords": ["gulp", "calendar"],
-  "author": "xieqian",
-  "license": "MIT",
-  "homepage": "http://192.168.30.8/svn/xmglb/管理系统项目组/汕头智能交通/代码/calendar",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.0",
