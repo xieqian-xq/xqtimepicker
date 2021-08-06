@@ -17,3 +17,6 @@ git commit -m 'deploy'
 git push -f git@github.com:xieqian-xq/xqtimepicker.git master:gh-pages
 
 cd -
+
+echo "按任意键继续"
+read -n 1

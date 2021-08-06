@@ -4,12 +4,13 @@
   "description": "时间选择器",
   "scripts": {
     "dev": "gulp",
-    "build": "gulp release"
+    "build": "node build/index.js && gulp release"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.0",
     "browser-sync": "^2.26.3",
+    "del": "^6.0.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^8.0.0",
     "gulp-header": "^2.0.7",

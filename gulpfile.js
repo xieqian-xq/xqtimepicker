@@ -6,7 +6,7 @@ var pkg = require('./package.json');
 var option = {
     base: 'src'
 };
-var pluginName = "jquery.xqTimePicker";
+var pluginName = "jquery.xqtimepicker";
 var dist = __dirname + '/dist';
 var banner = [
     '/*!',
@@ -70,7 +70,8 @@ gulp.task("build:html", function () {
     gulp.src("src/*.html", option)
         .pipe(plugins.rename(function (path) {
             if (path.basename === "index") {
-                path.basename = pluginName;
+                // 不需要重命名
+                // path.basename = pluginName;
             }
         }))
         .pipe(plugins.tap(function (file) {
